@@ -40,5 +40,7 @@ int main() {
 	valread = read(sock, buffer, 1024);
 	printf("%s\n", buffer);
 
+	printf("\nThats it!\n");
+
 	return 0;
 }
